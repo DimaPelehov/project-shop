@@ -4,6 +4,7 @@
 
 body{
     font-family: "Roboto", sans-serif;
+    background-image: url(image/patt.png);
 }
 
 .container{
@@ -87,5 +88,6 @@ body{
 }
 
 .header{
-
+padding: 25px 0px;
+background-color: rgba(255, 255, 255, 0.75);
 }
