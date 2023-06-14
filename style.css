@@ -14,7 +14,7 @@ body{
     margin: 0 auto; 
 }
 
-
+/* Налаштування для row */
 .row{
     display: flex;
     margin-left: -15px;
@@ -63,13 +63,13 @@ body{
 }
 
 .col-8{
-    flex:0 0 66.6% ;
-    max-width: 66.6%; 
+    flex:0 0 66.66667% ;
+    max-width: 66.66667%; 
 }
 
 .col-9{
-    flex:0 0 74.9% ;
-    max-width: 74.9%; 
+    flex:0 0 75% ;
+    max-width: 75%; 
 }
 
 .col-10{
@@ -96,6 +96,7 @@ background-color: rgba(255, 255, 255, 0.75);
     margin-top: 7px;
 }
 
+/* Налаштування меню в header */
 .menu{
     display: flex;
 }
@@ -122,4 +123,8 @@ background-color: rgba(255, 255, 255, 0.75);
 .menu a:hover{
     background-color:rgb(44, 113, 184);
     color: white;
+}
+
+sup{
+    vertical-align: super;
 }
