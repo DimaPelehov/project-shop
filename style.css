@@ -128,3 +128,85 @@ background-color: rgba(255, 255, 255, 0.75);
 sup{
     vertical-align: super;
 }
+
+/* Налаштування форми filter */
+
+aside{
+    height: 845px;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 21px;
+}
+
+.first-h2{
+    margin-top: 32px;
+}
+
+h2{
+    margin-left: 15px;
+    color: white;
+    font-weight: 900;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.check-box{
+    display: flex;
+}
+
+label{
+    position: relative;
+    padding-left: 40px;
+    color: white;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+label::before{
+    content: "";
+    display:block; 
+    width: 12px;
+    height: 12px;
+    border: 1px solid white;
+    cursor: pointer;
+    position: absolute;
+    left: 15px;
+    top: 3px;
+}
+
+input[type='checkbox']:checked + label::before{
+    background-color: white;
+}
+
+input{
+    display: none;
+}
+
+.show-more{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 13px;
+}
+
+.show-more a{
+    text-decoration: none;
+    color: white;
+}
+
+.filter-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.submit{
+    width: 210px;
+    height: 50px;
+    background-color:rgb(44, 113, 184) ;
+    color: white;
+    font-family:"Roboto", sans-serif ;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
